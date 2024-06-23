@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Project Zomboid - Dead State
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido al proyecto "Dead State", una aplicación web inspirada en el videojuego Project Zomboid. Esta aplicación está diseñada para proporcionar información sobre las reglas de las facciones, enlaces a Discord, y más. Construida con React, esta aplicación también presenta un carrusel interactivo con videos y imágenes relacionados con el juego.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- **Carrusel Interactivo**: Un carrusel que muestra videos de YouTube e imágenes con leyendas divertidas sobre el juego.
+- **Reproducción Automática de Videos**: Los videos del carrusel se reproducen automáticamente al pasar el ratón sobre ellos.
+- **Reglas de Facción**: Una página dedicada a las reglas de facción con un fondo personalizado y un botón para regresar a la página principal.
+- **Enlaces Importantes**: Enlaces a las reglas del servidor, el canal de Discord, y la IP del servidor.
 
-### `npm start`
+## Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca principal para la construcción de la interfaz de usuario.
+- **React Responsive Carousel**: Para el carrusel interactivo.
+- **Animate.css**: Para las animaciones de entrada.
+- **GitHub Pages**: Para el despliegue de la aplicación.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+Sigue estos pasos para configurar y ejecutar el proyecto localmente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clona el repositorio:
+    ```bash
+    git clone git@github.com:Branduwu/pagezomboid.git
+    cd pagezomboid
+    ```
 
-### `npm run build`
+2. Instala las dependencias:
+    ```bash
+    npm install --legacy-peer-deps
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Inicia la aplicación:
+    ```bash
+    npm start
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La aplicación estará disponible en `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Despliegue
 
-### `npm run eject`
+Este proyecto está configurado para desplegarse en GitHub Pages. Sigue estos pasos para desplegar la aplicación:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Asegúrate de tener el repositorio remoto configurado:
+    ```bash
+    git remote add origin git@github.com:Branduwu/pagezomboid.git
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Realiza un commit de tus cambios:
+    ```bash
+    git add .
+    git commit -m "Deploying application"
+    git push -u origin main
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Despliega la aplicación:
+    ```bash
+    npm run deploy
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+La aplicación se desplegará en `https://Branduwu.github.io/pagezomboid`.
 
-## Learn More
+## Estructura del Proyecto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) /src
+/assets
+imagen2.png
+imagen3.png
+imagen4.png
+imagenfondoreglas.jpg
+discord.png
+rules.png
+server.png
+image.jpg
+HomePage.js
+HomePage.css
+RulesPage.js
+RulesPage.css
+App.js
+App.css
+index.js
+
+
+## Contribuyendo
+
+Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos:
+
+1. Realiza un fork del proyecto.
+2. Crea una rama para tu nueva funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza commit de tus cambios (`git commit -m 'Agregar nueva funcionalidad'`).
+4. Empuja a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre una solicitud de extracción.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+---
+
+Gracias por visitar nuestro proyecto "Dead State". ¡Esperamos que disfrutes usando la aplicación tanto como nosotros disfrutamos creándola!
+
