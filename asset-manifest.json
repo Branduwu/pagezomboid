@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/%7Bnombre-del-repositorio%7D/static/css/main.b2a2e21f.css",
+    "main.js": "/%7Bnombre-del-repositorio%7D/static/js/main.328be44e.js",
+    "static/js/453.9f898690.chunk.js": "/%7Bnombre-del-repositorio%7D/static/js/453.9f898690.chunk.js",
+    "static/media/imagen2.png": "/%7Bnombre-del-repositorio%7D/static/media/imagen2.62c5c46147f49f006a1c.png",
+    "static/media/imagen3.png": "/%7Bnombre-del-repositorio%7D/static/media/imagen3.ba36ac0445d0f4f9f2f1.png",
+    "static/media/imagen4.png": "/%7Bnombre-del-repositorio%7D/static/media/imagen4.4074a19caf26bfbc06c9.png",
+    "static/media/image.jpg": "/%7Bnombre-del-repositorio%7D/static/media/image.8c424136b3398b12f399.jpg",
+    "static/media/imagenfondoreglas.jpg": "/%7Bnombre-del-repositorio%7D/static/media/imagenfondoreglas.f05211bbf6ce01ef514c.jpg",
+    "static/media/server.png": "/%7Bnombre-del-repositorio%7D/static/media/server.6406a0bc381f68142986.png",
+    "static/media/discord.png": "/%7Bnombre-del-repositorio%7D/static/media/discord.d437d824dc068f075720.png",
+    "static/media/rules.png": "/%7Bnombre-del-repositorio%7D/static/media/rules.574731a61c98f76bf4e6.png",
+    "index.html": "/%7Bnombre-del-repositorio%7D/index.html",
+    "main.b2a2e21f.css.map": "/%7Bnombre-del-repositorio%7D/static/css/main.b2a2e21f.css.map",
+    "main.328be44e.js.map": "/%7Bnombre-del-repositorio%7D/static/js/main.328be44e.js.map",
+    "453.9f898690.chunk.js.map": "/%7Bnombre-del-repositorio%7D/static/js/453.9f898690.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2a2e21f.css",
+    "static/js/main.328be44e.js"
+  ]
+}
