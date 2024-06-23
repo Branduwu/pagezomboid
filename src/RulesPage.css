@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.rules-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: white;
+  font-family: 'Creepster', cursive;
+}
+
+.rules-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rules-page h1, .rules-page h2 {
+  color: #FFD700; /* Un color dorado para los títulos */
+  text-shadow: 2px 2px 4px #000000; /* Agregar sombra de texto para mejor legibilidad */
+}
+
+.rules-page p, .rules-page li {
+  text-shadow: 1px 1px 2px #000000; /* Agregar sombra de texto para mejor legibilidad */
+}
+
+.rules-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rules-page li {
+  margin-bottom: 10px;
+}
+
+.back-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #FFD700;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px #000000;
+}
