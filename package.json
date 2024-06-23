@@ -16,6 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "preinstall": "npx npm@10.7.0 install --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,4 +47,3 @@
   },
   "homepage": "https://{tu-usuario}.github.io/{nombre-del-repositorio}"
 }
-
