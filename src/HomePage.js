@@ -28,7 +28,17 @@ const HomePage = () => {
       <div className="carousel-container">
         <Carousel autoPlay infiniteLoop>
           <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/PDQJgoY9ENI?si=tXq67YPUYoqX8Im6" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/PDQJgoY9ENI?si=tXq67YPUYoqX8Im6"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+              title="Video 1"
+            ></iframe>
             <p className="legend">¡Cuidado con los zombis en la esquina!</p>
           </div>
           <div>
@@ -36,7 +46,17 @@ const HomePage = () => {
             <p className="legend">¿Listo para sobrevivir otra noche?</p>
           </div>
           <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XlWJkvtc4S0?si=ZsSIkPaUG4BFZz4G" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/XlWJkvtc4S0?si=ZsSIkPaUG4BFZz4G"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+              title="Video 2"
+            ></iframe>
             <p className="legend">¡Construye tu refugio antes de que anochezca!</p>
           </div>
           <div>
@@ -44,7 +64,17 @@ const HomePage = () => {
             <p className="legend">No olvides saquear los supermercados.</p>
           </div>
           <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/yUS4wP5wJOY?si=i-Uq68OCIbcmSjDk" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/yUS4wP5wJOY?si=i-Uq68OCIbcmSjDk"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              onMouseOver={handleMouseOver}
+              onMouseOut={handleMouseOut}
+              title="Video 3"
+            ></iframe>
             <p className="legend">¿Qué tan lejos llegarás en esta carrera?</p>
           </div>
           <div>
